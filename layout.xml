@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+ <button id="test01" text="Connect" ontap="Connect"/>
+<button id="test02" text="Send" ontap="Send"/>
+<button id="test03" text="Close" ontap="Close"/>
+</layout>
