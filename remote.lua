@@ -36,11 +36,12 @@ events.focus = function()
 	);
 
 	socket:onconnect(function()
+			socket:write("Connected");
 			print("Connected");
 		end
 	);
 
-	socket:ondata(function(data)
+	socket:ondata(function(d)
 			print("Holy feck");
 		end
 	);
